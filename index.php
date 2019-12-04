@@ -10,8 +10,8 @@
       echo $months[5];
       foreach($months as $elements)
       {
-      echo $elements;
-      }
-    ?>
+      ?>
+      <p><?php echo $elements; ?></p>
+    <?php } ?>
   </body>
 </html>
